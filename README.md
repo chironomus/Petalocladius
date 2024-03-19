@@ -1,6 +1,6 @@
 Supplementary files for the paper 
 
-Trond Andersen1*, Amalie Höcherl2, Annui Malla Sanz-laParra1,  Ruth H. Bastardo3, Viktor Baranov4
+Trond Andersen, Amalie Höcherl, Annui Malla Sanz-laParra,  Ruth H. Bastardo, Viktor Baranov
 A NEW SPECIES OF PETALOCLADIUS SUBLETTE & WIRTH, 1972 (DIPTERA, CHIRONOMIDAE, ORTHOCLADIINAE) FROM THE DOMINICAN REPUBLIC, WITH AN EMENDED GENERIC DIAGNOSIS
 CHIRONOMUS Journal of Chironomidae Research No. 36, 2024:ACCEPTED. Current Research.
 
