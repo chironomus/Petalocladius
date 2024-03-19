@@ -1,0 +1,148 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=46;
+	taxlabels
+	Abiskomyia
+	Anzacladius_kiwi
+	Austrobrillia_longipes
+	Botryocladius
+	Brillia
+	Cardiocladius
+	Clunio_marinus
+	Corynoneura
+	Cricotopus
+	Diplocladius
+	Echinocladius_martini
+	Elpiscladius_capicola
+	Eretmoptera_murphyi
+	Eukiefferiella
+	Euorthocladius_luteipes
+	Ferringtonia
+	Heleniella
+	Hydrobaenus_saetheri
+	Kaniwhaniwhanus
+	Limnophyes
+	Lopescladius
+	Mesosmittia
+	Nanocladius
+	Naonella
+	Nasuticladius
+	Notocladius
+	Parachaetocladius
+	Parakiefferiella
+	Parametriocnemus
+	Parapsectrocladius_acuminatus
+	Paratrichocladius
+	Paulfreemania_pictipennis
+	Petalocladius
+	Prodiamesa_sp
+	Propsilocerus_akamusi
+	Psectrocladius_allopsectrocladius
+	Psectrocladius_s_str
+	Pseudosmittia
+	Rheocricotopus
+	Stictocladius_pictus
+	Synorthocladius
+	Thalassosmittia
+	Thienemanniella
+	Tonnoirocladius_commensalis
+	Tvetenia
+	Xylotopus_par
+;
+end;
+
+begin trees;
+	tree con_all_compat = [&U] (Prodiamesa_sp[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0929669905,length_median=0.05626972,length_95%HPD={1.000032E-8,0.3162531}]:0.05627,Propsilocerus_akamusi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.354536459,length_median=0.3528555,length_95%HPD={1.219957E-7,0.8740548}]:0.352856,((((((((((((((((Cardiocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.3665177,length_median=0.3704112,length_95%HPD={5.48735E-8,0.9014536}]:0.370411,((((Clunio_marinus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.36061901,length_median=0.3625601,length_95%HPD={8.230486E-8,0.8838059}]:0.36256,Thienemanniella[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.103204158,length_median=0.08442027,length_95%HPD={1.042004E-8,0.3025763}]:0.08442)[&prob=0.582597797,prob_stddev=0.00279064035,prob_range={0.580624517,0.584571078},prob(percent)="58",prob+-sd="58+-0",length_mean=0.0887202285,length_median=0.05904958,length_95%HPD={1.005325E-8,0.2874197}]:0.05905,Corynoneura[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.150170937,length_median=0.1360429,length_95%HPD={1.478976E-8,0.410892}]:0.136043)[&prob=0.927881923,prob_stddev=0.00220611433,prob_range={0.926321965,0.929441882},prob(percent)="93",prob+-sd="93+-0",length_mean=0.220230801,length_median=0.2049829,length_95%HPD={1.377174E-8,0.5851979}]:0.204983,Notocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.106065895,length_median=0.07969499,length_95%HPD={1.003078E-8,0.3283753}]:0.079695)[&prob=0.850017333,prob_stddev=0.0108797262,prob_range={0.842324205,0.857710461},prob(percent)="85",prob+-sd="85+-1",length_mean=0.152523454,length_median=0.1270073,length_95%HPD={1.029737E-8,0.4400993}]:0.127007,Lopescladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0874635708,length_median=0.06224391,length_95%HPD={1.000061E-8,0.2739505}]:0.062244)[&prob=0.606450495,prob_stddev=0.00880560163,prob_range={0.600223994,0.612676995},prob(percent)="61",prob+-sd="61+-1",length_mean=0.143512332,length_median=0.1152627,length_95%HPD={1.056185E-8,0.4208727}]:0.115263)[&prob=0.53711901,prob_stddev=0.0168758318,prob_range={0.525185995,0.549052025},prob(percent)="54",prob+-sd="54+-2",length_mean=0.109713991,length_median=0.08431872,length_95%HPD={1.023196E-8,0.328907}]:0.084319,Stictocladius_pictus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.160659168,length_median=0.1456482,length_95%HPD={1.099659E-8,0.4387969}]:0.145648)[&prob=0.289138956,prob_stddev=0.015461656,prob_range={0.278205915,0.300071998},prob(percent)="29",prob+-sd="29+-2",length_mean=0.090240588,length_median=0.06401599,length_95%HPD={1.011626E-8,0.2853987}]:0.064016,(((Echinocladius_martini[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.179987188,length_median=0.1556514,length_95%HPD={1.07999E-8,0.5031477}]:0.155651,Parachaetocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.274523495,length_median=0.269848,length_95%HPD={1.780225E-8,0.6958997}]:0.269848)[&prob=0.853670569,prob_stddev=0.00167815534,prob_range={0.852483934,0.854857204},prob(percent)="85",prob+-sd="85+-0",length_mean=0.153233777,length_median=0.1272183,length_95%HPD={1.010015E-8,0.4430983}]:0.127218,Synorthocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.302074904,length_median=0.2952835,length_95%HPD={6.317599E-8,0.7658096}]:0.295284)[&prob=0.0594650809,prob_stddev=0.00328088797,prob_range={0.0571451428,0.0617850191},prob(percent)="6",prob+-sd="6+-0",length_mean=0.075257861,length_median=0.049901,length_95%HPD={1.030437E-8,0.255539}]:0.049901,((Kaniwhaniwhanus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.405180901,length_median=0.4010767,length_95%HPD={8.148718E-8,1.015657}]:0.401077,Naonella[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.202477417,length_median=0.1851773,length_95%HPD={1.176058E-8,0.5440624}]:0.185177)[&prob=0.153115917,prob_stddev=0.00177243373,prob_range={0.151862617,0.154369217},prob(percent)="15",prob+-sd="15+-0",length_mean=0.0979182233,length_median=0.05604645,length_95%HPD={1.0337E-8,0.3462491}]:0.056046,((Nanocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.178227374,length_median=0.1520193,length_95%HPD={1.011549E-8,0.509761}]:0.152019,((Psectrocladius_allopsectrocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0830727482,length_median=0.07206332,length_95%HPD={1.06642E-8,0.2330044}]:0.072063,Psectrocladius_s_str[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0604183607,length_median=0.04496306,length_95%HPD={1.010705E-8,0.1869919}]:0.044963)[&prob=0.992773526,prob_stddev=0.00135760882,prob_range={0.991813552,0.9937335},prob(percent)="99",prob+-sd="99+-0",length_mean=0.192431642,length_median=0.1823696,length_95%HPD={1.014883E-8,0.500309}]:0.18237,Rheocricotopus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0886697188,length_median=0.06167617,length_95%HPD={1.011183E-8,0.2836202}]:0.061676)[&prob=0.94313485,prob_stddev=9.99350935E-4,prob_range={0.942428202,0.943841498},prob(percent)="94",prob+-sd="94+-0",length_mean=0.20796027,length_median=0.1834821,length_95%HPD={1.055928E-8,0.572382}]:0.183482)[&prob=0.748940028,prob_stddev=0.00131989746,prob_range={0.74800672,0.749873337},prob(percent)="75",prob+-sd="75+-0",length_mean=0.160048712,length_median=0.1208763,length_95%HPD={1.01812E-8,0.4872176}]:0.120876,Tonnoirocladius_commensalis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.105606181,length_median=0.08209147,length_95%HPD={1.007133E-8,0.3166901}]:0.082091)[&prob=0.127303272,prob_stddev=0.00901301409,prob_range={0.120930109,0.133676435},prob(percent)="13",prob+-sd="13+-1",length_mean=0.0840209429,length_median=0.05188113,length_95%HPD={1.039841E-8,0.2866984}]:0.051881)[&prob=0.088210981,prob_stddev=0.0012821861,prob_range={0.0873043386,0.0891176235},prob(percent)="9",prob+-sd="9+-0",length_mean=0.105760107,length_median=0.07488508,length_95%HPD={1.172453E-8,0.3239525}]:0.074885)[&prob=0.0186928349,prob_stddev=6.03381696E-4,prob_range={0.0182661796,0.0191194901},prob(percent)="2",prob+-sd="2+-0",length_mean=0.0808611529,length_median=0.04955097,length_95%HPD={1.060808E-8,0.2620738}]:0.049551)[&prob=0.0109330418,prob_stddev=7.91938477E-4,prob_range={0.0103730567,0.0114930269},prob(percent)="1",prob+-sd="1+-0",length_mean=0.057765229,length_median=0.03133767,length_95%HPD={1.382219E-8,0.2036973}]:0.031338,(Anzacladius_kiwi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.199777685,length_median=0.1891107,length_95%HPD={1.377236E-8,0.5221549}]:0.189111,Paulfreemania_pictipennis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.233455537,length_median=0.2161771,length_95%HPD={1.262755E-8,0.6147949}]:0.216177)[&prob=0.161209034,prob_stddev=0.00201755755,prob_range={0.159782406,0.162635663},prob(percent)="16",prob+-sd="16+-0",length_mean=0.0840742154,length_median=0.05469159,length_95%HPD={1.099151E-8,0.2771585}]:0.054692)[&prob=0.0125729981,prob_stddev=0.00175357806,prob_range={0.0113330311,0.013812965},prob(percent)="1",prob+-sd="1+-0",length_mean=0.0638303634,length_median=0.03762237,length_95%HPD={1.068506E-8,0.2238593}]:0.037622,((((Eretmoptera_murphyi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.27084896,length_median=0.2603245,length_95%HPD={2.013193E-8,0.6933039}]:0.260325,Pseudosmittia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.219026357,length_median=0.204249,length_95%HPD={1.025159E-8,0.5832874}]:0.204249)[&prob=0.423428709,prob_stddev=0.00294148577,prob_range={0.421348764,0.425508653},prob(percent)="42",prob+-sd="42+-0",length_mean=0.101144399,length_median=0.0664746,length_95%HPD={1.023352E-8,0.3348425}]:0.066475,Mesosmittia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0901531142,length_median=0.05409809,length_95%HPD={1.002007E-8,0.3084393}]:0.054098)[&prob=0.675421989,prob_stddev=0.00399740374,prob_range={0.672595397,0.67824858},prob(percent)="68",prob+-sd="68+-0",length_mean=0.126224345,length_median=0.1000982,length_95%HPD={1.004281E-8,0.3745186}]:0.100098,Thalassosmittia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.146065704,length_median=0.1204108,length_95%HPD={1.068221E-8,0.4202089}]:0.120411)[&prob=0.687928322,prob_stddev=0.00331859933,prob_range={0.685581718,0.690274926},prob(percent)="69",prob+-sd="69+-0",length_mean=0.151911526,length_median=0.1231135,length_95%HPD={1.004852E-8,0.4444124}]:0.123114,Petalocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.151665265,length_median=0.1055598,length_95%HPD={1.011051E-8,0.4838322}]:0.10556)[&prob=0.156955815,prob_stddev=0.00256437221,prob_range={0.15514253,0.158769099},prob(percent)="16",prob+-sd="16+-0",length_mean=0.137780721,length_median=0.1044561,length_95%HPD={1.004172E-8,0.422059}]:0.104456)[&prob=0.0522786059,prob_stddev=0.00352601179,prob_range={0.0497853391,0.0547718728},prob(percent)="5",prob+-sd="5+-0",length_mean=0.0868759331,length_median=0.0670992,length_95%HPD={1.311004E-8,0.260201}]:0.067099,((Eukiefferiella[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.131281017,length_median=0.1111854,length_95%HPD={1.003095E-8,0.3727445}]:0.111185,Tvetenia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.142612646,length_median=0.1274214,length_95%HPD={1.014127E-8,0.3905206}]:0.127421)[&prob=0.205634516,prob_stddev=0.00744799282,prob_range={0.20036799,0.210901043},prob(percent)="21",prob+-sd="21+-1",length_mean=0.0756784987,length_median=0.04884577,length_95%HPD={1.005684E-8,0.2482773}]:0.048846,(Heleniella[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.19720055,length_median=0.1845067,length_95%HPD={1.150629E-8,0.5233853}]:0.184507,Parakiefferiella[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.27860351,length_median=0.2722663,length_95%HPD={1.132924E-8,0.7088211}]:0.272266)[&prob=0.133329778,prob_stddev=0.0062600851,prob_range={0.128903229,0.137756326},prob(percent)="13",prob+-sd="13+-1",length_mean=0.0856057575,length_median=0.05324975,length_95%HPD={1.031752E-8,0.2826589}]:0.05325)[&prob=0.0131463161,prob_stddev=7.54227121E-5,prob_range={0.0130929842,0.013199648},prob(percent)="1",prob+-sd="1+-0",length_mean=0.0577441814,length_median=0.03484128,length_95%HPD={1.058752E-8,0.2036378}]:0.034841)[&prob=0.00777312605,prob_stddev=1.31989746E-4,prob_range={0.00767979521,0.00786645689},prob(percent)="1",prob+-sd="1+-0",length_mean=0.0758799823,length_median=0.06308113,length_95%HPD={1.372769E-8,0.2133413}]:0.063081,((Botryocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.206990862,length_median=0.1962423,length_95%HPD={1.007316E-8,0.5439679}]:0.196242,Nasuticladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0914030778,length_median=0.05468489,length_95%HPD={1.004459E-8,0.3144516}]:0.054685)[&prob=0.121196768,prob_stddev=0.00331859933,prob_range={0.118850164,0.123543372},prob(percent)="12",prob+-sd="12+-0",length_mean=0.105589514,length_median=0.07004215,length_95%HPD={1.17319E-8,0.343987}]:0.070042,Limnophyes[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.132850312,length_median=0.113337,length_95%HPD={1.003266E-8,0.3770204}]:0.113337)[&prob=0.0271459428,prob_stddev=4.90247628E-4,prob_range={0.0267992854,0.0274926002},prob(percent)="3",prob+-sd="3+-0",length_mean=0.0555531725,length_median=0.03223292,length_95%HPD={1.155435E-8,0.1871657}]:0.032233)[&prob=0.025839311,prob_stddev=0.00411053781,prob_range={0.0229327218,0.0287459001},prob(percent)="3",prob+-sd="3+-0",length_mean=0.138736989,length_median=0.1140732,length_95%HPD={1.125868E-8,0.3996809}]:0.114073,(Ferringtonia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.207679837,length_median=0.1838135,length_95%HPD={1.062964E-8,0.577584}]:0.183814,Parapsectrocladius_acuminatus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.340148406,length_median=0.3345253,length_95%HPD={1.355211E-8,0.8646976}]:0.334525)[&prob=0.321338098,prob_stddev=0.001112485,prob_range={0.320551452,0.322124743},prob(percent)="32",prob+-sd="32+-0",length_mean=0.163362756,length_median=0.1248047,length_95%HPD={1.037592E-8,0.5025363}]:0.124805)[&prob=0.0960774379,prob_stddev=0.0125955929,prob_range={0.0871710088,0.104983867},prob(percent)="10",prob+-sd="10+-1",length_mean=0.127810144,length_median=0.09661094,length_95%HPD={1.008461E-8,0.3859053}]:0.096611,((Cricotopus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.182865866,length_median=0.1738195,length_95%HPD={1.007758E-8,0.4797535}]:0.17382,Paratrichocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.105691961,length_median=0.08825269,length_95%HPD={1.06001E-8,0.3024322}]:0.088253)[&prob=0.350897309,prob_stddev=0.00339402204,prob_range={0.348497373,0.353297245},prob(percent)="35",prob+-sd="35+-0",length_mean=0.078648047,length_median=0.04843585,length_95%HPD={1.017888E-8,0.2657088}]:0.048436,Euorthocladius_luteipes[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.186997022,length_median=0.1761205,length_95%HPD={1.117837E-8,0.4939222}]:0.176121)[&prob=0.411562358,prob_stddev=0.00871132324,prob_range={0.405402523,0.417722194},prob(percent)="41",prob+-sd="41+-1",length_mean=0.114860213,length_median=0.07581556,length_95%HPD={1.007233E-8,0.3749551}]:0.075816)[&prob=0.313364977,prob_stddev=0.00250780518,prob_range={0.311591691,0.315138263},prob(percent)="31",prob+-sd="31+-0",length_mean=0.18818698,length_median=0.1546249,length_95%HPD={1.025975E-8,0.5478808}]:0.154625,Abiskomyia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.547133233,length_median=0.543418,length_95%HPD={8.249638E-8,1.390995}]:0.543418)[&prob=0.31848484,prob_stddev=0.00680689976,prob_range={0.313671635,0.323298045},prob(percent)="32",prob+-sd="32+-1",length_mean=0.160823198,length_median=0.1161637,length_95%HPD={1.025409E-8,0.4993685}]:0.116164,Parametriocnemus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.167812873,length_median=0.1407208,length_95%HPD={1.212385E-8,0.4802544}]:0.140721)[&prob=0.505586518,prob_stddev=0.00799480748,prob_range={0.499933335,0.5112397},prob(percent)="51",prob+-sd="51+-1",length_mean=0.159425403,length_median=0.1098849,length_95%HPD={1.006224E-8,0.513761}]:0.109885,Hydrobaenus_saetheri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.229671319,length_median=0.207443,length_95%HPD={1.03128E-8,0.6242529}]:0.207443)[&prob=0.973187382,prob_stddev=0.00288491874,prob_range={0.971147436,0.975227327},prob(percent)="97",prob+-sd="97+-0",length_mean=0.200078848,length_median=0.1720898,length_95%HPD={1.301881E-8,0.5657039}]:0.17209,Diplocladius[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.125174062,length_median=0.09671723,length_95%HPD={1.007609E-8,0.3766285}]:0.096717)[&prob=0.927215274,prob_stddev=0.00209298026,prob_range={0.925735314,0.928695235},prob(percent)="93",prob+-sd="93+-0",length_mean=0.173681428,length_median=0.1509403,length_95%HPD={1.008335E-8,0.4845765}]:0.15094,Brillia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0670156961,length_median=0.04719212,length_95%HPD={1.014636E-8,0.2128419}]:0.047192)[&prob=0.576931282,prob_stddev=0.00469506383,prob_range={0.57361137,0.580251193},prob(percent)="58",prob+-sd="58+-0",length_mean=0.0908416588,length_median=0.06715676,length_95%HPD={1.006658E-8,0.2818755}]:0.067157,(Elpiscladius_capicola[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.319598267,length_median=0.3104034,length_95%HPD={6.921987E-8,0.8125056}]:0.310403,Xylotopus_par[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.100582309,length_median=0.07497583,length_95%HPD={1.007949E-8,0.3100852}]:0.074976)[&prob=0.450814645,prob_stddev=0.0015461656,prob_range={0.449721341,0.451907949},prob(percent)="45",prob+-sd="45+-0",length_mean=0.10349924,length_median=0.07460354,length_95%HPD={1.027622E-8,0.3204879}]:0.074604)[&prob=0.869456814,prob_stddev=0.00903186977,prob_range={0.863070318,0.875843311},prob(percent)="87",prob+-sd="87+-1",length_mean=0.193591271,length_median=0.1675477,length_95%HPD={1.002313E-8,0.5490086}]:0.167548,Austrobrillia_longipes[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.20305986,length_median=0.1800042,length_95%HPD={1.095708E-8,0.5619756}]:0.180004)[&prob=0.563931628,prob_stddev=0.00279064035,prob_range={0.561958348,0.565904909},prob(percent)="56",prob+-sd="56+-0",length_mean=0.127259462,length_median=0.09654302,length_95%HPD={1.07633E-8,0.3878672}]:0.096543);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
